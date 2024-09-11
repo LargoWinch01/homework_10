@@ -5,7 +5,7 @@ lowerCase=firstWord.toLocaleLowerCase();
 
 
 switch(true){
-case lowerCase==='a'|| 'e'||'i'||'o'||'u':
+case lowerCase==='a'||lowerCase=== 'e'||lowerCase==='i'||lowerCase==='o'||lowerCase==='u':
     console.log(`სიტყვა > ${word} < იწყება ხმოვნით, რომელიც არის > ${firstWord} <`);
     break;
 default:
